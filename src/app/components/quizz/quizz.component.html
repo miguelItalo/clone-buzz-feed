@@ -1,0 +1,6 @@
+<section class="quizz-container">
+      <app-quizz-logo [title]="title"></app-quizz-logo>
+      <app-quizz-question [question]='questionSelected.question' [isFinished]='finished'></app-quizz-question>
+      <app-quizz-options [isFinished]="finished" [options]="questionSelected.options" (playerChoice)="onPlayerChoice($event)"></app-quizz-options>
+      <app-quizz-results [isFinished]="finished" [answerSelected]="answerSelected"></app-quizz-results>
+</section>

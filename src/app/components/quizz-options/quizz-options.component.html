@@ -1,0 +1,5 @@
+<section *ngIf=!isFinished class="quizz-options">
+      <button *ngFor="let option of options;" (click)="handleclick(option.alias)" class="btn-option">
+            {{ option.name }}
+      </button>
+</section>

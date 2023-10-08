@@ -1,0 +1,29 @@
+.quizz-options{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto;
+      margin-bottom: 20px;
+      gap: 8px;
+}
+.btn-option{
+      background-color: transparent;
+      border-radius: 8px;
+      border: solid 1px #18ab29;
+      width: 48%;
+      display: inline-block;
+      cursor: pointer;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      padding: 1rem 2rem;
+      text-shadow: 0 1px 0 #2f6627;
+      transition: .25s;
+}
+.btn-option:hover{
+      background-color: #5cbf2a;
+}
+.btn-option:active{
+      position: relative;
+      top: 1px;
+}

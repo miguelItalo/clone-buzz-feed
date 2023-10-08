@@ -1,0 +1,12 @@
+.quizz-question{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #4334d9;
+      border-radius: 8px;
+      background-color: #644ed2;
+      height: 150px;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 20px;
+}
